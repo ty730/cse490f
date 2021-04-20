@@ -47,7 +47,7 @@ void loop() {
   }
 }
 
-boolean buttonPressed(int pinOfButton){
+boolean buttonPressed(int pinOfButton) {
   int buttonValue = digitalRead(pinOfButton);
   // if there is a pull-up resistor and the buttons pin
   // has low input voltage, then it is pressed.
