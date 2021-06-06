@@ -41,6 +41,7 @@ function preload() {
   spritedataLeft = loadJSON('duckleft.json');
   spritedataShot = loadJSON('duckshot.json');
   spritedataDog = loadJSON('dog.json');
+  // Sprite images found at: https://www.pikpng.com/pngvi/JbTRbR_duck-hunt-duck-png-clipart/
   spritesheetRight = loadImage('images/spritesheet.png');
   spritesheetLeft = loadImage('images/spritesheetflipped.png');
   bg = loadImage('images/duckhuntbg.png');
